@@ -145,7 +145,7 @@ span{
     display: flex;
     justify-content: space-between;
     margin-left: 100px;
-    margin-top: 70px;
+    margin-top: 40px;
     flex-wrap: wrap;
 }
 .ls img{
@@ -361,7 +361,7 @@ ol li{
         top: 380px;
     }
     .cont .left a{
-        top: 600px;
+        top: 670px;
     }
     .about .ls{
       position: relative;
