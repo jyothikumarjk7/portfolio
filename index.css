@@ -319,6 +319,42 @@ input:focus{
 
 input[type="email"]{
     margin-top: 30px;
+}form span {
+    content: "\2713";
+    color: rgb(73, 72, 72);
+  }
+  form span::before {
+    content: "\00D7";
+    color: rgb(73, 72, 72);
+  }
+  #s1{
+      position: absolute;
+      top: 15px;
+      right: 20px;
+    
+  }
+  #s2{
+      position: absolute;
+      top: 95px;
+      right: 20px;
+  }
+  input[type="text"]:valid + #s1 {
+    color: springgreen;
+    text-transform: capitalize;
+}
+input[type="text"]:invalid + span::before{
+    color: rgb(255, 0, 0);
+    text-transform: capitalize;
+    font-size: 25px;
+}
+input[type="email"]:valid + #s2 {
+    color: springgreen;
+    text-transform: capitalize;
+}
+input[type="email"]:invalid + span::before{
+    color: rgb(255, 0, 0);
+    text-transform: capitalize;
+    font-size: 25px;
 }
 textarea{
     background: rgb(75, 75, 75);
