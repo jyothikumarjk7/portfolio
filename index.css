@@ -264,7 +264,7 @@ ol li{
     html{
     scroll-behavior: smooth;
 }
-    html,body{
+    html{
         width:100%;
         height:100%;
         margin:0;
