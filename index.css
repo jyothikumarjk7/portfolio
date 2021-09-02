@@ -345,8 +345,8 @@ ol li{
     .cont .right img{
         width: 300px;
         height: 300px;
-        top: 280px;
-        right: 0;
+        top: 350px;
+        right: -30px;
     }
     .cont .left h2{
         font-size: 28px;
