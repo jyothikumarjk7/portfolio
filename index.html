@@ -165,8 +165,9 @@
     <div class="contact">
         <h3 id="co">Contact Us</h3>
         <div class="frm">
-            <form action="">  <input type="text" placeholder="Name" required>
-                <input type="email" name="" id="" placeholder="Email" required>
+            <form action=""> 
+                 <input type="text" placeholder="Name" required pattern="[A-Za-z]{0-25}"><span id="s1">&#10003;</span> 
+                <input type="email" name="" id="" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required><span id="s2">&#10003;</span> 
                 <textarea name="" id="" cols="30" placeholder="Message" rows="10"></textarea>
                 <input type="submit" id="btn" value="Send Message">
             </form>
