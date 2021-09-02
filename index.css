@@ -359,6 +359,7 @@ h3{
     }
     .cont .left p{
         top: 380px;
+        width:50%;
     }
     .cont .left a{
         top: 650px;
