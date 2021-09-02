@@ -319,7 +319,7 @@ h3{
         overflow: hidden;
     }
     nav ul{
-       height: 150px;
+       height: 200px;
        width: 91%;
         background: rgb(37, 37, 37);
     }
@@ -361,7 +361,7 @@ h3{
         top: 380px;
     }
     .cont .left a{
-        top: 700px;
+        top: 650px;
     }
     .about .ls{
       position: relative;
