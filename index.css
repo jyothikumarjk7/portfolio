@@ -267,6 +267,15 @@ ol li{
     *{
         margin: 0;
     }
+    html ,body{
+  
+     margin: 0;
+        padding: 0;
+        width:100%;4
+    height:100%;
+    overflow-x:hidden;
+
+}
     .header .left{
         left:-25px;
         top: 0;
