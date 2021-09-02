@@ -256,6 +256,91 @@ ol li{
     height: 200px;
     cursor: pointer;
 }
+.contact{
+    background: rgb(36, 37, 35);
+    padding: 30px;
+}
+.contact h3{
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-family: 'Poiret One';
+    color: rgb(196, 29, 160);
+    letter-spacing: 2px;
+}
+.frm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    
+}
+form{ 
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+}
+
+input{
+    width: 500px;
+    height: 50px;
+    text-align: center;
+    font-size: 22px;
+    background: rgb(75, 75, 75);
+    border: none;
+    border-radius: 36px;
+    outline: none;font-family: monospace;
+    position: relative;
+}
+input[type="email"]:valid{
+    color: springgreen;
+    text-transform: capitalize;
+}
+input[type="email"]:invalid{
+    color: red;
+}
+input:valid {
+    color: springgreen;
+    text-transform: capitalize;
+}
+input:invalid{
+    color: red;
+}
+
+input:focus{
+    color:rgb(255, 255, 255) ;
+    text-transform: capitalize;
+}
+
+input[type="email"]{
+    margin-top: 30px;
+}
+textarea{
+    background: rgb(75, 75, 75);
+    border: none;
+    margin-top: 50px;
+    text-align: center;
+    width: 500px;
+    font-size: 22px;
+    color: snow;
+    font-family: monospace;
+}
+#btn{
+width: 250px;
+margin-top: 20px;
+background: rgb(255, 255, 255);
+color: rgb(196, 29, 160);
+cursor: pointer;
+}
+#btn:hover{
+    background: rgb(196, 29, 160);
+    color: snow;
+}
 
 @media only screen and (max-width: 768px) {
     *{
