@@ -6,7 +6,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    max-width:100%;
+    overflow:hidden;
 }
  
 .ham{
@@ -385,8 +385,8 @@ cursor: pointer;
     *{
         margin: 0;
     }
-    html,body{
-        width:100%;
+    body{
+        max-width:100%;
         overflow-x:hidden;
     }
     html{
