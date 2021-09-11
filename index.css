@@ -5,10 +5,7 @@
 html{
     scroll-behavior: smooth;
 }
-body{
-     max-width: 1050px;
-    margin: 0 auto;
-}
+
  
 .ham{
     display: none;
@@ -386,10 +383,7 @@ cursor: pointer;
     *{
         margin: 0;
     }
-    body{
-        max-width:100%;
-        overflow-x:hidden;
-    }
+   
     html{
     scroll-behavior: smooth;
 }
